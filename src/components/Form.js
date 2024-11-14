@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 
 const ContactForm = () => {
@@ -65,11 +66,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-slate-400 rounded-lg shadow-md">
+    <div className = "max-w-lg mx-auto p-6 bg-slate-400 rounded-lg shadow-md" >
       <h2 className="text-2xl font-bold mb-6 text-gray-800">Contactez-nous</h2>
       
       {submitSuccess && (
-        <div className="mb-4 p-3 bg-green-100 text-green-700 rounded-md">
+        <div className= "mb-4 p-3 bg-green-100 text-green rounded-md">
           Message envoyé avec succès !
         </div>
       )}

@@ -31,7 +31,10 @@ function Header() {
                                         <Link to="/about">&Agrave; propos</Link>
                                     </li>
                                     <li>
-                                        <Link to="/Contact">Contact</Link>
+                                        <Link to="/contact">Contact</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/books">Liste livres</Link>
                                     </li>
                                 </ul>
                             </div>
